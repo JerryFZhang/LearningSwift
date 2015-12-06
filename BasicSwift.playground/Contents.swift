@@ -1,9 +1,8 @@
 /*
     Basic Swift Syntax
-    The examples came from Apple's Offical Swift Book.
-    This document shows a list of really basic swift syntax.
-    This blog post and the source code follows the WTFPL license.
-    Its free of use, please read the license file if you care.
+    The examples fron this page came from Apple's Offical Swift Book [*The Swift Programming Language (Swift 2.1)*](https://itunes.apple.com/ca/book/swift-programming-language/).
+    The[blog post on my personal blog]() and the [source code avaliable on github](https://github.com/zhang96/BasicSwift) follows the [WFTPL License](http://www.wtfpl.net)
+    Its free of use, please read the [license file](http://www.wtfpl.net/txt/copying/).
 */
 
 
@@ -15,7 +14,7 @@
 
     //Print Command
     print("Hello World!")
-    print("Getting started with the Swift programming language 2.0!")
+    print("Getting started with the Swift programming language 2.1!")
 
 
 
