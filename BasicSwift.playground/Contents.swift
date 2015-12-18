@@ -1,6 +1,6 @@
 /*
     Basic Swift Syntax
-    The examples fron this page came from Apple's Offical Swift Book [*The Swift Programming Language (Swift 2.1)*](https://itunes.apple.com/ca/book/swift-programming-language/).
+    The examples fron this page are inspired from Apple's Offical Swift Book [*The Swift Programming Language (Swift 2.1)*](https://itunes.apple.com/ca/book/swift-programming-language/).
     The[blog post on my personal blog]() and the [source code avaliable on github](https://github.com/zhang96/BasicSwift) follows the [WFTPL License](http://www.wtfpl.net)
     Its free of use, please read the [license file](http://www.wtfpl.net/txt/copying/).
 */
@@ -19,7 +19,7 @@
 
 
 /*
-    Declare Variables
+    Declaring Variables
     Use *var* to declare a variable.
     The value doesn’t need to be known at compile time.
     You are allowed to use *let*, but its not necessary.
