@@ -13,9 +13,15 @@
 */
 
     //Print Command
-    print("Hello World!")
-    print("Getting started with the Swift programming language 2.1!")
+print("Hello World!",terminator:"")
+print("Getting started with the Swift programming language 2.1!",terminator:"")
 
+/* 
+"print" command has been modified.Now we have to use:
+print("(the content)",terminator:"(empty,blank space,comma,period,etc.)")
+if this method is not used, swift will automatically add a "\n" to every ending of the print
+command
+*/
 
 
 /*
@@ -33,7 +39,7 @@
 
     // Print a variable
     variable = 1001
-    print(variable)   //The print method will print a double number
+    print(variable,terminator:"")   //The print method will print a double number
 
 
 /*
@@ -52,7 +58,7 @@
  */
     var a4:Double = 70
     //This is a double variable declared explicitly
-    print(a4) //The compiler will print 70.0 instead of 70
+    print(a4,terminator:"") //The compiler will print 70.0 instead of 70
 
 
 /*
@@ -80,8 +86,8 @@
 
 
     //Print an array
-    print(intarray [1])   //Print a specific item in the array
-    print(intarray)       //Print the entire array
+    print(intarray [1],terminator:"")   //Print a specific item in the array
+    print(intarray,terminator:"")       //Print the entire array
 
     // for loop
     for(var i = 0 ; i < intarray.count ; ++i) {
