@@ -13,14 +13,17 @@
 */
 
     //Print Command
-print("Hello World!",terminator:"")
-print("Getting started with the Swift programming language 2.1!",terminator:"")
+    print("Hello World",terminator:"!")
+    print("Getting started with the Swift programming language 2.1",terminator:"!")
 
 /* 
-"print" command has been modified.Now we have to use:
-print("(the content)",terminator:"(empty,blank space,comma,period,etc.)")
-if this method is not used, swift will automatically add a "\n" to every ending of the print
-command
+    Print command has been modified in Swift 2.0.
+    Now we have to use:
+
+    print("(the content)",terminator:"(empty,blank space,comma,period,etc.)")
+
+    Otherwise, swift will automatically add a "\n"
+    to every ending of the print command.
 */
 
 
@@ -39,7 +42,8 @@ command
 
     // Print a variable
     variable = 1001
-    print(variable,terminator:"")   //The print method will print a double number
+    print("The value of variable is \(variable)",terminator:".")
+    //The print method will print a double number
 
 
 /*
@@ -82,12 +86,13 @@ command
 */
 
     //Create an array
-    var intarray = [1,2,3,45,0,6,3]
+    var intarray = [1,2,3,45,0,6,3] //Print an array
 
+    print(intarray [1],terminator:"")
+    //Print a specific item in the array
 
-    //Print an array
-    print(intarray [1],terminator:"")   //Print a specific item in the array
-    print(intarray,terminator:"")       //Print the entire array
+    print(intarray,terminator:"")
+    //Print the entire array
 
     // for loop
     for(var i = 0 ; i < intarray.count ; ++i) {
